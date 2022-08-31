@@ -1,0 +1,108 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+
+
+$insertquery="insert into tbl_service (service_name, service_image,service_desc) values ('$service_name','', '$service_desc')";
+$db -> exec($insertquery); //to insert database
+
+$updatequery="update tbl_service set service_image='$realfilename' where service_id='$i' ";
+$db->query($updatequery);
+
+
+*** By Edition Function ***
+	Food Order Booking with time limit (when the user orders at 11:PM, this order not allow)
+
+enctype="mutipart/form-data" --> to Upload the Files
+
+Static (H.W) A Pee Yay Yan
+	- Index
+	- About Us
+	- Contact Us
+
+
+Dynamic
+	- FAQ 
+
+Service.html
+tbl_service
+	service_id
+	service_name
+	service_image
+	service_description
+
+Promotion.html
+tbl_promotion
+
+
+****** ✔︎ This is H.W Sign ********
+Faq.html (✔︎︎) Insert, Update, View
+tbl_faq
+	faq_id (int)
+	faq_question 
+	faq_answer
+
+Chef.html (✔︎︎) Insert, Update, View
+tbl_chef
+	chef_id
+	chef_name
+	chef_image
+	chef_desc;
+
+Menu.html (✔︎︎) Insert, Update, View
+tbl_menu (for Dropdown)
+	menu_id
+	meun_name
+	
+$i=0;
+        
+        foreach ($db -> query($viewquery)as $row) //result is one by one row
+        {
+            $i=$row['service_id'];
+            
+        }
+        $i++;
+        
+service_id  |   service_name
+     -      |       -
+	1       |   1.jpg
+	2       |   2.jpeg
+
+i |  For Loop  | i++
+0 |     -      |  1
+0 |     1      |  2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

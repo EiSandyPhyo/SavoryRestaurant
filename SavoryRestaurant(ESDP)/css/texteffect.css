@@ -1,0 +1,406 @@
+.owl-carousel.home-slider .slider-item .slider-text .texteffect 
+{
+    cursor: pointer;
+    position: relative;
+} 
+
+.owl-carousel.home-slider .slider-item .slider-text .texteffect .span {
+display: inline-block;
+position: relative;
+margin-right: 5px;
+}
+.owl-carousel.home-slider .slider-item .slider-text .texteffect .span:after {
+content: "";
+position: absolute;
+height: 100%;
+width: 0;
+top: 0;
+left: 0;
+transition: 0.6s;
+z-index: -3; 	
+}
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(1):after {
+  background: white;
+  width: 10px;
+  height: 20px;
+  transition: 0.6s;
+  transition-delay: 100ms;
+  -moz-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Safari 3-8 */
+  transform: rotate(-10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(1) {
+  color: #ffb400;
+  transition-delay: 110ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(2):after {
+  background: white;
+  width: 10px;
+  height: 20px;
+  transition: 0.6s;
+  transition-delay: 200ms;
+  -moz-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+  transform: rotate(-20deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(2) {
+  color: #ffb400;
+  transition-delay: 220ms;
+}
+
+
+
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(3):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 300ms;
+  -moz-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(3) {
+  color: #ffb400;
+  transition-delay: 330ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(4):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 400ms;
+  -moz-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(4) {
+  color: #ffb400;
+  transition-delay: 440ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(5):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 500ms;
+  transform: rotate(-5deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(5) {
+  color: #ffb400;
+  transition-delay: 550ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(6):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 600ms;
+  transform: rotate(0deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(6) {
+  color: #ffb400;
+  transition-delay: 660ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(7):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 700ms;
+  transform: rotate(5deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(7) {
+  color: #ffb400;
+  transition-delay: 770ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(8):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 800ms;
+  transform: rotate(10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(8) {
+  color: #ffb400;
+  transition-delay: 880ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(9):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 900ms;
+  transform: rotate(15deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(9) {
+  color: #ffb400;
+  transition-delay: 990ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(10):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1000ms;
+  transform: rotate(20deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(10) {
+  color: #ffb400;
+  transition-delay: 1100ms;
+}
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(11):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1100ms;
+  transform: rotate(-25deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(11) {
+  color: #ffb400;
+  transition-delay: 1100ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(12):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1200ms;
+  transform: rotate(-20deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(12) {
+  color: #ffb400;
+  transition-delay: 1220ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(13):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1300ms;
+  transform: rotate(-15deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(13) {
+  color: #ffb400;
+  transition-delay: 1330ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(14):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1400ms;
+  transform: rotate(-10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(14) {
+  color: #ffb400;
+  transition-delay: 1440ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(15):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1500ms;
+  transform: rotate(-5deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(15) {
+  color: #ffb400;
+  transition-delay: 1550ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(16):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1600ms;
+  transform: rotate(0deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(16) {
+  color: #ffb400;
+  transition-delay: 1660ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(17):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1700ms;
+  transform: rotate(5deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(17) {
+  color: #ffb400;
+  transition-delay: 1770ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(18):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1800ms;
+  transform: rotate(10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(18) {
+  color: #ffb400;
+  transition-delay: 1880ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(19):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 1900ms;
+  transform: rotate(15deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(19) {
+  color: #ffb400;
+  transition-delay: 1990ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(20):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2000ms;
+  transform: rotate(20deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(20) {
+  color: #ffb400;
+  transition-delay: 2100ms;
+}
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(21):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2100ms;
+  transform: rotate(-25deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(21) {
+  color: #ffb400;
+  transition-delay: 2110ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(22):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2200ms;
+  transform: rotate(-20deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(22) {
+  color: #ffb400;
+  transition-delay: 2220ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(23):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2300ms;
+  transform: rotate(-15deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(23) {
+  color: #ffb400;
+  transition-delay: 2330ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(24):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2400ms;
+  transform: rotate(-10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(24) {
+  color: #ffb400;
+  transition-delay: 2440ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(25):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2500ms;
+  transform: rotate(-5deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(25) {
+  color: #ffb400;
+  transition-delay: 2550ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(26):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2600ms;
+  transform: rotate(0deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(26) {
+  color: #ffb400;
+  transition-delay: 2660ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(27):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2700ms;
+  transform: rotate(5deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(27) {
+  color: #ffb400;
+  transition-delay: 2770ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(28):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2800ms;
+  transform: rotate(10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(28) {
+  color: #ffb400;
+  transition-delay: 2880ms;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(29):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 2900ms;
+  transform: rotate(10deg);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .share:hover > h1 > span:nth-child(29) {
+  color: #ffb400;
+  transition-delay: 2990ms;
+}

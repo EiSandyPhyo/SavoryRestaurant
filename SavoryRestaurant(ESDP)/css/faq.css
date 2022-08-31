@@ -1,0 +1,11 @@
+#p1, #f1, #p2, #f2, #p3, #f3, #p4, #f4, #p5, #f5, #p6, #f6, #p7, #f7, #p8, #f8, #p9, #f9, #p10, #f10 
+      {
+        margin : 5px;
+
+      }
+  #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10 
+  {
+    /*display: none;*/
+    margin-left: 40px;
+    line-height: 60px;
+  }

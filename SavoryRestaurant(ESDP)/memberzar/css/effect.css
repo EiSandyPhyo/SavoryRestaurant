@@ -1,0 +1,126 @@
+.box6{
+text-align: center;
+overflow: hidden;
+border-radius: 10px;
+position: relative;
+}
+.box6:before,
+.box6:after{
+content: "";
+width: 100%;
+height: 110%;
+background: rgba(0,0,0,0.5);
+position: absolute;
+top: 0;
+left: 50%;
+opacity: 0;
+transform: translateX(-50%) scale(3);
+-webkit-clip-path: polygon(50% 0%, 63% 32%, 98% 35%, 74% 60%, 79% 91%, 50% 70%, 21% 91%, 25% 60%, 2% 35%, 34% 29%);
+clip-path: polygon(50% 0%, 63% 32%, 98% 35%, 74% 60%, 79% 91%, 50% 70%, 21% 91%, 25% 60%, 2% 35%, 34% 29%);
+transition: all 0.5s ease 0s;
+}
+.box6:after{
+transform: translateX(-50%) scale(0);
+transition-delay: 0.2s;
+}
+.box6:hover:before{
+opacity: 1;
+transform: translateX(-50%) scale(0);
+}
+.box6:hover:after{
+opacity: 1;
+transform: translateX(-50%) scale(3);
+}
+.box6 img{
+width: 100%;
+height: 250px;
+}
+.box6 .box-content{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.box6 .inner-content{
+width: 100%;
+position: absolute;
+top: 50%;
+left: 0;
+opacity: 0;
+z-index: 2;
+transform: translateY(-150%) scale(1);
+transition: all 0.3s ease 0.2s;
+}
+.box6:hover .inner-content{
+transform: translateY(-50%);
+opacity: 1;
+transition:all 0.3s ease 0.2s;
+}
+.box6 .title{
+font-size: 25px;
+font-weight: 700;
+color: #f39003;
+text-transform: uppercase;
+text-shadow: 0 0 5px #000;
+margin: 0 0 5px 0;
+}
+.box6 .post{
+display: block;
+font-size: 14px;
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 7px;
+}
+.box6 .icon{
+width: 100%;
+list-style: none;
+padding: 0;
+margin: 0;
+position: absolute;
+bottom: -100%;
+right: 50%;
+opacity: 0;
+z-index: 2;
+transform: translateX(50%);
+transition:all 0.3s ease 0.3s;
+}
+.box6:hover .icon{
+bottom: 15px;
+opacity: 1;
+}
+
+.text-effect{
+    color:transparent;
+    font-family: 'Chewy', cursive;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 8px;
+    text-shadow: #fff 0 0 10px, #FFC312 0 0 15px,
+                #FFC312 0 0 20px, #FFC312 0 0 25px;
+    margin: 0 auto;
+    position: relative;
+    animation: animate 1s ease-out infinite;
+}
+@keyframes animate{
+    100%{
+        color:transparent;
+        text-shadow: -4px 4px hsla(0, 0%, 70%, .4), -3px 3px hsla(0, 0%, 60%, .2),
+                    -2px 2px hsla(0, 0%, 70%, .2), -1px 1px hsla(0, 0%, 70%, .2),
+                    0px 0px rgba(255,255,255,0.9), 1px -1px hsla(0, 0%, 30%, .6),
+                    2px -2px hsla(0, 0%, 30%, .7), 3px -3px hsla(0, 0%, 32%, .8),
+                    4px -4px hsla(0, 0%, 30%, .9), 5px -5px hsla(0, 0%, 30%, 1.0);
+    }
+}
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 80px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 55px; }
+}
+@media only screen and (max-width: 479px){
+    .text-effect{ font-size: 40px; }
+}
+@media only screen and (max-width: 359px){
+    .text-effect{ font-size: 35px; }
+}
